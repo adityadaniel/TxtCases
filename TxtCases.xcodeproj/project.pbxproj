@@ -26,6 +26,7 @@
 		112734282108B5E400CF8165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1127342E2108B72F00CF8165 /* ADTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADTextField.swift; sourceTree = "<group>"; };
 		11273430210968F300CF8165 /* HRToast+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HRToast+UIView.swift"; sourceTree = "<group>"; };
+		112734322109716800CF8165 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		112734102108B5E300CF8165 = {
 			isa = PBXGroup;
 			children = (
+				112734322109716800CF8165 /* README.md */,
 				1127341B2108B5E300CF8165 /* TxtCases */,
 				1127341A2108B5E300CF8165 /* Products */,
 			);
