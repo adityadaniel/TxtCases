@@ -25,8 +25,12 @@ class ViewController: UIViewController {
         
         initialTextField.borderStyle = .roundedRect
         convertButton.layer.cornerRadius = 8
-//        self.view.hr_setToastThemeColor(color: #be0040)
     }
+
+    @objc func copyToClipboard() {
+        print("touched")
+    }
+    
     @IBAction func converButtonTapped(_ sender: UIButton) {
         guard let initialText = initialTextField.text else { return }
         upperCaseTextField.text = makeUpperCase(text: initialText)
@@ -34,6 +38,7 @@ class ViewController: UIViewController {
         titleCaseTextField.text = makeTitleCase(text: initialText)
         view.makeToast(message: "Text Converted", duration: 0.75, position: HRToastPositionDefault as AnyObject)
     }
+    
     
     func makeUpperCase(text: String) -> String {
         let uppercasedText = text.uppercased()
@@ -53,7 +58,5 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
-
 }
 
