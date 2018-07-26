@@ -12,6 +12,8 @@
 		112734222108B5E300CF8165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112734202108B5E300CF8165 /* Main.storyboard */; };
 		112734242108B5E400CF8165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112734232108B5E400CF8165 /* Assets.xcassets */; };
 		112734272108B5E400CF8165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112734252108B5E400CF8165 /* LaunchScreen.storyboard */; };
+		1127342F2108B72F00CF8165 /* ADTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1127342E2108B72F00CF8165 /* ADTextField.swift */; };
+		11273431210968F300CF8165 /* HRToast+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11273430210968F300CF8165 /* HRToast+UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		112734232108B5E400CF8165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		112734262108B5E400CF8165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		112734282108B5E400CF8165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1127342E2108B72F00CF8165 /* ADTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADTextField.swift; sourceTree = "<group>"; };
+		11273430210968F300CF8165 /* HRToast+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HRToast+UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				112734232108B5E400CF8165 /* Assets.xcassets */,
 				112734252108B5E400CF8165 /* LaunchScreen.storyboard */,
 				112734282108B5E400CF8165 /* Info.plist */,
+				1127342E2108B72F00CF8165 /* ADTextField.swift */,
+				11273430210968F300CF8165 /* HRToast+UIView.swift */,
 			);
 			path = TxtCases;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11273431210968F300CF8165 /* HRToast+UIView.swift in Sources */,
 				1127341F2108B5E300CF8165 /* ViewController.swift in Sources */,
 				1127341D2108B5E300CF8165 /* AppDelegate.swift in Sources */,
+				1127342F2108B72F00CF8165 /* ADTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
